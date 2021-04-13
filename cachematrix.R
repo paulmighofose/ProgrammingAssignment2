@@ -38,3 +38,8 @@ cacheSolve <- function(x, ...) {
 
 cacheSolve(matrix)
 ## Solution = 10.5 
+
+## Determining the inverse of the matrix:
+inverse <- cacheSolve(matrix)
+solve(inverse)
+
